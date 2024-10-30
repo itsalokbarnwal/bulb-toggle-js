@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+input[type="button"]{
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-left: 135px;
+    border: 2px solid ;
+    border-radius: 10px;
+    background-color: rgba(0,255,0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#off{
+    background-color: red;
+
+}
+
+input[type="button"]:active{
+    transform: scale(0.9);
+}
+
+.box{
+
+}
+
+
+
+#bulb{
+    height: 600px;
+    width: 600px;
+}
+
+
+
